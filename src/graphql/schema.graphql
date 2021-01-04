@@ -1,0 +1,19 @@
+type Query {
+  getMessages: [Message]
+  getMessage(id: String!): Message
+}
+
+type Mutation {
+  create(name: String!,email: String!,age: String!,address: String!,phone: String!): Message
+  update(id: String!,name: String!,email: String!,age: String!,address: String!,phone: String!): Message
+  delete(id: String!): Message
+}
+
+type Message {
+  _id: String!
+  name: String!
+  email: String!
+  age: String!
+  address: String!
+  phone: String!
+}

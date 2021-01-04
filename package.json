@@ -1,0 +1,32 @@
+{
+  "name": "api-express-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.11.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfalconi/api-express-graphql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rfalconi/api-express-graphql/issues"
+  },
+  "homepage": "https://github.com/rfalconi/api-express-graphql#readme",
+  "description": ""
+}
